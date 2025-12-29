@@ -1,0 +1,15 @@
+
+@charset "UTF-8";
+
+body
+{ font-family: Arial, Helvetica, sans-serif;
+color: #000000;
+margin: 0%;}
+
+.teste1 { background-image: linear-gradient(to right,#012E40,#026773, #F2E3D5);
+ ;
+}
+
+.teste2 {background-image: linear-gradient(to left,#3CA6A6, #024959,#F2E3D5);} 
+
+

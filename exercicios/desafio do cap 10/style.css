@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Changa+One:ital@1&display=swap');
+
+
+:root{
+ --corhead: #8594a5af;
+ --cormain:   #335c67;
+ --corfooter: #b0c0bc;
+ --corsecition:white;
+ --cortexto: #360a25d3;
+ --fonteprimcipal:"Changa One", sans-serif, italic;
+ --fontesegundaria: Arial, Helvetica, sans-serif;
+
+}
+
+*{margin: 0px;}
+
+body{ text-indent: 10px;
+}
+
+header > h1 {  text-align: center;
+    background-color: var(--corhead);
+     font-family: var(--fonteprimcipal);
+    color:var(--cortexto);
+    font-size: 3em; 
+color: var(--cortexto); 
+padding-bottom:27px ;
+padding-top:25px;
+font-weight: 55;}
+
+#caixa{ text-align: center;}
+
+.imagem>img { margin: auto;
+display: inline-block;}
+
+.texto{ text-align: left;
+}
+
+
+main{ background-color:var(--cormain);
+}
+main>h1{ text-align: center;
+color: var(--cortexto);}
+
+main>img{ margin: auto;}
+
+section { background-color: var(--corsecition);}
+
+section>h2{ text-align: center;
+color: var(--cortexto);}
+
+footer{background-color:var(--corfooter);}

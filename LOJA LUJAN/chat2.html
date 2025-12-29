@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminário Online</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #e9a18b;
+            padding: 40px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 20px;
+        }
+
+        header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+
+        /* HERO */
+        .hero {
+            background: #e9a18b;
+            display: flex;
+            justify-content: space-between;
+            padding: 60px 10%;
+        }
+
+        .hero-text h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 30px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .hero-img img {
+            width: 350px;
+            border-radius: 10px;
+        }
+
+        /* SOBRE */
+        .sobre {
+            display: flex;
+            padding: 80px 10%;
+            justify-content: space-between;
+            align-items: center;
+            background: #fff;
+        }
+
+        .sobre img {
+            width: 320px;
+            border-radius: 10px;
+        }
+
+        .sobre-text {
+            width: 50%;
+        }
+
+        .sobre-text h2 {
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+
+        .sobre-text p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        /* APRENDER */
+        .aprender {
+            text-align: center;
+            padding: 80px 10%;
+            background: #fff;
+        }
+
+        .cards {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .card {
+            width: 260px;
+            background: #fafafa;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px #0002;
+        }
+
+        .card h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        /* DEPOIMENTO */
+        .depoimento {
+            background: #a9d4d9;
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        .depoimento p {
+            font-size: 22px;
+            margin-top: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* LOGOS */
+        .logos {
+            padding: 60px 10%;
+            text-align: center;
+            background: #fff;
+        }
+
+        .logos img {
+            width: 100px;
+            margin: 20px;
+            opacity: 0.8;
+        }
+
+        /* FOOTER */
+        footer {
+            display: flex;
+            padding: 60px 10%;
+        }
+
+        .footer-left {
+            width: 50%;
+            background: #111;
+            color: #fff;
+            padding: 40px;
+        }
+
+        .footer-left input {
+            padding: 10px;
+            width: 70%;
+            margin-top: 20px;
+        }
+
+        .footer-right {
+            width: 50%;
+            background: #e9a18b;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .footer-right img {
+            width: 200px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        @media(max-width: 900px){
+            .hero, .sobre, footer {
+                flex-direction: column;
+                text-align: center;
+            }
+            .sobre-text, .footer-left, .footer-right {
+                width: 100%;
+            }
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Laura Castro — Marketing Digital</h2>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Seminário Online <br> de Marketing Digital</h1>
+            <p>Descubra os segredos para alcançar o sucesso online.</p>
+            <button class="btn">Reservar meu lugar</button>
+        </div>
+        <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
+        </div>
+    </section>
+
+    <section class="sobre">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="">
+        <div class="sobre-text">
+            <h2>Oi, sou Laura</h2>
+            <p>Profissional de mídia digital com mais de 12 anos de experiência.</p>
+            <p>Ensino estratégias modernas para aumentar vendas e construir marcas fortes.</p>
+        </div>
+    </section>
+
+    <section class="aprender">
+        <h2>Você vai aprender a</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>01 — Usar Instagram e Facebook</h3>
+                <p>Aumente conversões e alcance mais clientes.</p>
+            </div>
+            <div class="card">
+                <h3>02 — Criar boas análises</h3>
+                <p>Entenda métricas e melhore resultados.</p>
+            </div>
+            <div class="card">
+                <h3>03 — Criar materiais que vendem</h3>
+                <p>Produção de conteúdo eficiente.</p>
+            </div>
+        </div>
+
+        <br><br>
+        <button class="btn">Reservar meu lugar</button>
+    </section>
+
+    <section class="depoimento">
+        <h2>O que estão dizendo</h2>
+        <p>"Este é um depoimento de exemplo, descrevendo como o curso ajudou meu negócio."</p>
+        <p>— Amanda Ribeiro</p>
+    </section>
+
+
+    <section class="logos">
+        <h2>Destaque em</h2>
+        <img src="https://via.placeholder.com/100x50" alt="">
+        <img src="https://via.placeholder.com/100x50" alt="">
+        <img src="https://via.placeholder.com/100x50" alt="">
+        <img src="https://via.placeholder.com/100x50" alt="">
+    </section>
+
+    <footer>
+        <div class="footer-left">
+            <h2>Assine e receba novidades</h2>
+            <input type="email" placeholder="Seu e-mail">
+        </div>
+
+        <div class="footer-right">
+            <h2>Sim, eu quero participar do Webinar!</h2>
+            <button class="btn">Registrar</button>
+            <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335" alt="">
+        </div>
+    </footer>
+
+</body>
+</html>

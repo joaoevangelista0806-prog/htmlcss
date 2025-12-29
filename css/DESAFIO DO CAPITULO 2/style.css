@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+
+
+:root {
+
+    --cor1:#34ff3199;
+    --cor2:#060706c3;
+    --cor3:#0ba716c3;
+    --cor4:#066f0be2;
+    --cor5:#044607;
+    --cor6:#ffffff;
+
+    --font-padrao: arial,Verdana, Geneva, Tahoma, sans-serif;
+    --font-destaque:"Bebas Neue", sans-serif;
+    --font-android: "Caesar Dressing", system-ui;
+}
+
+*{ margin:0px;
+padding:0px;
+}
+
+body { background-color:var(--cor1);
+       font-family:var(--font-padrao);
+       text-indent: 10PX;
+       margin:0px;
+       }
+
+header {
+        BACKground: linear-gradient( to left, #076c0c,#066f0be2, #27be2799 );  
+
+        color: var(--cor6);}
+
+header > h1 { color: var(--cor6); 
+             font-family:var(--font-destaque);
+            text-align: center;
+            font-size: 3em;
+            margin-bottom:20px;}
+
+header>p { text-align: center;
+           font-size:1.2EM ; 
+           max-width:500px;
+           margin: auto;
+           padding-left:10px ;
+           padding-right:10px ;
+          text-shadow: 2px 2px 0px  rgba(0, 0, 0, 0.384);  }
+
+
+nav{ background-color: var(--cor4);
+     padding: 10px;
+     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.492); }        
+
+nav>a {color: var(--cor6); 
+       padding: 10px; 
+       border-radius:5px;
+       text-decoration: none;
+       font-weight: bold;}
+
+nav>A:hover { background-color: var(--cor1);
+                transition-duration:0,5s ;}     
+
+
+main p { line-height:2em ;
+border:10px ;
+font-size: 1em;
+text-align: justify;
+text-indent: 10px;}
+
+article > h1{ color: var(--cor5); 
+              font-family: var(--font-android);}
+
+article > h2 { color: var(--cor5); 
+               font-family: var(--font-android);}
+article>img{ width:100% ;}
+
+img#pequena{display: block;
+margin: auto;
+width: 50%; }
+
+main{background-color: var(--cor6);
+    min-width: 300px;
+    max-width:1000px;
+    padding:30px ;
+     margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.542) ;
+border-radius: 0px 0px 10px 10px ;}
+
+footer{background-color: var(--cor5);
+margin-top: 30px;}
+
+
