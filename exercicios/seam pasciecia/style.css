@@ -14,6 +14,7 @@
 --corp3:rgb(27, 27, 168);
 --cortextp: rgb(223, 222, 222);
 --cortexts: rgb(223, 222, 222);
+--corfooter: rgb(0, 0, 0);
 --fontep:"Zalando Sans Expanded", sans-serif;
 --fontes:"Google Sans Code", monospace;
 }
@@ -36,7 +37,7 @@ var(--corp3));
 height: 90px;
 padding-top:20px;
 padding-bottom: 20px;
-border-color: black;  
+border-color: rgba(29, 29, 29, 0.219);  
 border: 2px solid;}
 
 header>img{ display:inline-block;
@@ -56,3 +57,23 @@ header>p {font-family:var(--fontes) ;
 font-size: 10px;
 color: var(--cortexts);
 display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*fazendo o footer logo*/
+footer{background: linear-gradient(to left, 
+var(--corp1),
+var(--corfooter),
+var(--corfooter),
+var(--corp3));
+text-align: center;
+color:var(--cortextp);}
