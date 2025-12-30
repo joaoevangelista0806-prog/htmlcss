@@ -14,15 +14,20 @@
 --corp3:rgb(27, 27, 168);
 --cortextp: rgb(223, 222, 222);
 --cortexts: rgb(223, 222, 222);
---corfooter: rgb(0, 0, 0);
+--corfooter: rgba(0, 0, 0, 0.829);
+--colorcurriculo:white;
 --fontep:"Zalando Sans Expanded", sans-serif;
 --fontes:"Google Sans Code", monospace;
+--sobras:1px 2px 2px black;
 }
 
 
 
 *{ margin: 0px; text-indent :10px;
      font-family:var(--cortexts);}
+
+body{background-color: rgba(15, 39, 15, 0.171);}
+
 
 /*mechendo na cabeca*/
 
@@ -46,17 +51,68 @@ height:90px;
 float: left;
 margin-left: 46px;
 border: 3px solid;}
+
 header>h1 { font-family: var(--fontep);
 font-size: 30px;
 color: var(--cortextp);
 display:inline-block ;
-text-shadow:1px 2px 2px black ;}
-
+text-shadow:1px 2px 2px black ;
+max-width: 55%;}
 
 header>p {font-family:var(--fontes) ;
-font-size: 10px;
+font-size: 12px;
 color: var(--cortexts);
-display: block;}
+display: block;
+text-align: center;
+padding-top:13px;}
+ 
+/* cabeca configurada*/
+
+main{ max-width:900px;
+margin: auto;
+text-align: justify;
+background-color: var(--colorcurriculo);
+padding-top: 1px;
+height: 670px;}
+
+main > h1 {text-align: center;
+     font-family: var(--fontep);
+     color: var(--cortextp);
+     text-shadow: var(--sobras);
+     border:1px solid rgba(0, 26, 255, 0.849);
+     border-radius: 9px;
+    display: block;
+    margin: auto;
+    width: 297px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+background: var(--corfooter);} 
+
+main> p { font-family: var(--fontes);}
+
+section{ background-color: var(--corp2);
+border-radius: 20px;
+margin:80px;
+border: solid black;
+padding-bottom: 20px;}
+
+section>h2 {text-align: center;
+font-size: 2em; 
+color: var(--cortextp);
+text-shadow: var(--sobras);}
+
+li>a{ font-size: 24px;
+color: var(--colorcurriculo);
+text-decoration:none;}
+ul{ display: inline-block;}
+
+img{ display:inline-block;
+width:90px;
+height:100px;
+float: right;
+margin-right: 150px;
+border: 3px solid;}
+a:hover{text-decoration:underline;}
 
 
 
@@ -68,12 +124,11 @@ display: block;}
 
 
 
-
-/*fazendo o footer logo*/
-footer{background: linear-gradient(to left, 
+/*fazendo o footer*/
+footer {background: linear-gradient(to left, 
 var(--corp1),
 var(--corfooter),
 var(--corfooter),
 var(--corp3));
 text-align: center;
-color:var(--cortextp);}
+color:var(--cortextp);} 
