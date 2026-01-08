@@ -26,7 +26,8 @@
 *{ margin: 0px; text-indent :10px;
      font-family:var(--cortexts);}
 
-body{background-color: rgba(15, 39, 15, 0.171);}
+body{background-color: rgba(15, 39, 15, 0.171);
+background-image: url(wallpaper004.jpg);}
 
 
 /*mechendo na cabeca*/
