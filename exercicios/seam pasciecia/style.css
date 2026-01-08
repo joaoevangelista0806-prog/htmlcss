@@ -27,7 +27,10 @@
      font-family:var(--cortexts);}
 
 body{background-color: rgba(15, 39, 15, 0.171);
-background-image: url(wallpaper004.jpg);}
+background-image: url(wallpaper005.jpg);
+background-repeat: no-repeat;
+background-position:top center;
+background-size:cover ;}
 
 
 /*mechendo na cabeca*/
@@ -74,7 +77,10 @@ margin: auto;
 text-align: justify;
 background-color: var(--colorcurriculo);
 padding-top: 1px;
-height: 670px;}
+height: 84vh;
+border:2px solid black;
+border-bottom:0px;
+border-top:1px;}
 
 main > h1 {text-align: center;
      font-family: var(--fontep);
