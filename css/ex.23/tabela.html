@@ -15,39 +15,49 @@ border: 0px;}
 table{ margin: auto;
 border-collapse:collapse;}
 
-td {
+td:nth-child(3n) { background-color: aqua;}
+td  {
     border: 2px solid black;
 height:100px;
 width: 90px;
 text-align: center;
-vertical-align: ;}
+vertical-align: ;
+}
 
-
+ 
 </style>
 
 </head>
 
 <body>
-    <h1>Tabelas</h1>
+    <h1 class="principal">Tabelas</h1>
     <table>
         <th>cabeca 1</th>
-<td>a1</td>
-<td>a2</td>
-<td>a3</td>
-<tr>
-    <th>cb2</th>
-<td>b2</td>
-<td>b3</td>
-<td>b4</td>
-</tr>
-<tr>
-    <th>cb3</th>
-<td>c3</td>
-<td>c4</td>
-<td>c5</td>
-</tr>
+<div>
+    
+    <td>a1</td>
+    <td>a2</td>
+    <td>a3</td>
+    <tr>
+        <th class="principal">cb2</th>
+    <td>b2</td>
+    <td>b3</td>
+    <td>b4</td>
+    </tr>
+    <tr>
+        <th class="principal">cb3</th>
+    <td>c3</td>
+    <td>c4</td>
+    <td>c5</td>
+    </tr>
+    
+    <th class="principal"> c3</th>
+    <td>11</td>
+    <td>22</td>
+    <td>33</td>
+</div>
 
-    </table>
+</table>
 
 
 
