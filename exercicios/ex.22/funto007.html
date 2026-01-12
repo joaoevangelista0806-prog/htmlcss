@@ -20,6 +20,7 @@ background-size: 100% 100%;
  border: 3px black solid;
  border-radius:50px ;   
 background-size: 100% 100%;
+z-index: 1;
 position: absolute;    
 background-color: blueviolet;
 height: 200px;
@@ -42,6 +43,25 @@ left:65%;
 
 }
 
+#teste2{ background-color: blueviolet;
+background-image: url(imagens/pattern004.png);
+height:200px;
+width:400px;
+position: relative;
+left:5% ;
+
+transform: translate(1px, 66px);
+border: 2px solid black;
+text-align: center;
+
+}
+
+#teste2>p{ font-size: 20px; position: absolute;
+    bottom: 20px;
+    right: 10px;
+    top:10px;
+z-index:3;
+} 
 </style>
 
 
@@ -57,11 +77,16 @@ left:65%;
 
 
         <main id="teste1"> <h1> a dor e como uma emocao que doi na minha mao e bate forte nop mue couracaooooo ai calidaaaa eu boto fundo</h1>
-
-
-
-
         </main>
+
+<article id="teste2">
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dignissimos vero quisquam libero fugit rem, neque porro suscipit sed dicta facilis modi id laudantium velit fuga maiores eaque omnis. Facilis?
+
+</p>
+</article>
+
+
 
   </section>
 
