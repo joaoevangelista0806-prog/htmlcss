@@ -40,4 +40,14 @@ img#cell{ display: block; }
 img#tablet{display: none;}
 img#print{display: none;}
 img#pc{display: none;}
-img#tv{display: none;}
+img#tv{display: none;} 
+
+@media screen  and  (min-width:768) and (max-width: 992px) {
+    
+body{ background-image:url(/exercicios/ex.26/imagens/back-tablet.jpg);}
+
+img#cell{ display: none; }
+img#tablet{display: block;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: none;} }
