@@ -1,7 +1,0 @@
-@charset "UTF-8";
-
- /* aparelho em pe {portrait}*/
-
- body {background-color: rgba(129, 129, 54, 0);
-background-image: url(cev-portrait.jpg);
-background-position: center bottom;}
