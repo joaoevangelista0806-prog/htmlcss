@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsividade</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="style/media.css" >
+    
+</head>
+<body onresize="mudoutamnho()">
+
+    <header>
+<h1> meu site </h1>
+ <p id="mee" oneclick="clickMenu()" > <a href="">abrir
+\ </a> </p>
+<menu> 
+<ul id="itens">
+    <li><a href="a">opcao 1</a></li>
+    <li><a href="a">opcao 2</a></li>
+    <li><a href="a">opcao 3</a></li>
+    <li><a href="a">opcao 4</a></li>
+</ul>
+
+</menu>
+    </header>
+<main>
+   <article>
+<h2>testando mmedia quiers</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati voluptatibus expedita magni accusantium fuga iusto quam atque ipsam quibusdam adipisci quas at tempore exercitationem vitae sunt, earum quisquam aliquid provident.
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos repudiandae inventore quaerat sapiente distinctio quas consequuntur aliquid facilis deleniti non, qui, dolor exercitationem eveniet quae? Corrupti exercitationem alias itaque facere.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deleniti consequatur in, odio consequuntur harum quam? Dignissimos ipsa odio, molestias, pariatur, vel natus exercitationem architecto soluta laudantium consequatur quos numquam?</p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga rerum vel provident minima ipsum repudiandae est tempore, facere velit doloremque quisquam error hic deleniti, neque voluptatibus voluptates quas excepturi.
+lopr
+lopr
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur molestias iste recusandae quod voluptates repudiandae, voluptas quia laudantium odit minus dolores ducimus, eum incidunt saepe, optio voluptatum harum quam ipsam.
+lor\</p>
+Obcaecati voluptatibus expedita magni accusantium fuga iusto quam atque ipsam quibusdam adipisci quas at tempore exercitationem vitae sunt, earum quisquam aliquid provident.
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos repudiandae inventore quaerat sapiente distinctio quas consequuntur aliquid facilis deleniti non, qui, dolor exercitationem eveniet quae? Corrupti exercitationem alias itaque facere.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas deleniti consequatur in, odio consequuntur harum quam? Dignissimos ipsa odio, molestias, pariatur, vel natus exercitationem architecto soluta laudantium consequatur quos numquam?
+
+
+</p>
+   </article>
+
+
+
+
+</main>
+<script> function mudoutamnho() 
+{if (window.innerWidth >=768)
+    itens.style.display = 'block'
+}
+
+
+</script>
+
+    <script> function clickMenu() {
+   if(
+    itens.style.display == 'block') {itens.style.display = 'none'}
+    else { itens.style.display = 'block'
+    }
+
+}
+    
+    </script>
+</body>
+</html>
