@@ -37,18 +37,102 @@ header {
     justify-content: center;
     align-items: center;
 
+   
+    font-size: var(--fontep);
+    color: var(--cortextp);
+   background: linear-gradient(to left, 
+var(--corp1),
+var(--corp2),
+var(--corp3)); 
 }
 
-.centro {
-    
+.titulo {
     text-align: center;
+     font-size: 1.5em;
 }
 
 .img > img{ 
+    position: relative;
+
+    border: 2px solid black;
     margin-right: auto ;
+    
     width: 80px;
     height: 90px;
 }
 
-main, footer{ display: none}
+main>h1, p, footer{ display:noe }
+/* cabeca configurada*/
 
+/*configurr o main*/
+main {max-width:75vw ;
+margin: auto;
+font-family: var(--fontep);
+border: 2px solid black; 
+border-radius: 10px;
+background-image: url(wallpaper004.jpg);}
+
+main > h1 { font-family: var(--fontep);
+text-align: center;
+padding-bottom: 10px;
+}
+
+main>p { 
+    margin: 6px;
+    text-indent :10px;
+    line-height: 20px;
+    text-align: justify;}
+    /* main feito*/ 
+    
+section { 
+    overflow: hidden;
+   
+width: 50vw;
+height: 25vh;
+border: 1px solid black;
+background: linear-gradient(to left, 
+var(--corp1),
+var(--corp2),
+var(--corp3)); 
+margin: 80px;
+border-radius: 20px;
+
+border: solid black;
+padding-bottom: 20px;
+}
+
+
+section > h2 { text-align: center;
+background-color: rgba(27, 27, 27, 0.781);
+color: var(--cortextp);
+border: 1px solid wheat;
+border-radius: 10px black;
+ }
+
+.curriculo{ display:flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+
+}
+.curriculo>ul>li>a { color: var(--cortexts);
+text-decoration: none;
+}
+.curriculo>ul>li{list-style: none;}
+
+.curriculo> img { border: 3px solid black;
+    height: 20vh;
+    width: 20vw;
+    border-radius: 50%;
+    
+flex: auto;}
+
+
+/*fazendo o footer*/
+footer {background: linear-gradient(to left, 
+var(--corp1),
+var(--corfooter),
+var(--corfooter),
+var(--corp3));
+text-align: center;
+color:var(--cortextp);} 
