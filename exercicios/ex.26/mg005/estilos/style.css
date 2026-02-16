@@ -6,7 +6,7 @@ padding: 0px;}
 
 body, html{ background-color: aliceblue;}
 
-header{ background-color: rgba(128, 128, 128, 0.801);}
+header{ background-color:rgba(128, 128, 128, 0.801);}
 
 header>h1{ padding: 10px;
 text-align: center;}

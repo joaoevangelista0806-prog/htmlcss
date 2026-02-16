@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+
+
+body{ background-image: url(wallpaper005.jpg);
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;}
+
+:root{ 
+--corp1: rgb(11, 11, 107);
+--corp2: rgb(52, 52, 128);
+--corp3:rgb(27, 27, 168);
+--cortextp: rgb(223, 222, 222);
+--cortexts: rgb(223, 222, 222);
+--corfooter: rgba(0, 0, 0, 0.829);
+--colorcurriculo:white;
+--fontep:"Zalando Sans Expanded", sans-serif;
+--fontes:"Google Sans Code", monospace;
+--sobras:1px 2px 2px black;
+}
+
+/*mechendo na cabeca*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centro {
+    
+    text-align: center;
+}
+
+.img > img{ 
+    margin-right: auto ;
+    width: 80px;
+    height: 90px;
+}
+
+main, footer{ display: none}
+
