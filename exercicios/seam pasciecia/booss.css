@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{margin:0px;
+padding: 0px;}
+
+/*cabecalho*/
+
+header{ 
+    
+    background-color: rgb(239, 162, 142);
+    display: flex;
+    }
+
+.container{ display: flex;
+   height: 40vh ;
+   flex-flow: row wrap;
+   gap: 4vh;
+  align-content: start;
+
+}
+ .c1{display: flex;
+justify-content: space-between;
+height: 20px;
+width: 100vw;
+}
+ 
+ .c2{padding-top: 20px;
+    max-width: 50vw;
+    display: flex;
+    flex-flow:column wrap;
+}
+
+button{background-color: aliceblue;
+border-radius:13px;
+padding: 5px;
+width: 150px;
+align-self: center;
+margin-left: 100px;}
+
+button:hover{ transition: 0.5s;
+background-color: black;
+color: aliceblue;
+}
+
+.c2>h1{ 
+margin-left: 100px;
+font-size:38px;
+max-width: 950px;
+align-self: center;
+text-align: center;
+}
+
+.c1>p{font-family: Arial, Helvetica, sans-serif;
+font-size: large;}
+
+
+.c2>p{ 
+    padding-bottom: 20px;
+    align-self: center;
+    max-width: 300px;
+    margin-left: 100px;
+}
+
+.img{
+  
+
+height: 400px;
+width: 400px;
+border-radius: 50%;
+display: flex;
+align-items: end;
+justify-content: end;
+border: 1px solid black;
+background-image: url(WhatsApp\ 300Image\ 2025-12-01\ at\ 9.22.40\ PM.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ }
+
+ .img > p > a {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+
+    background: linear-gradient(
+        135deg,
+        rgb(214, 5, 197),
+        rgb(52, 52, 128),
+        rgb(10, 153, 172)
+    );
+}
+
+
+
+/*cabecalho feito*/
